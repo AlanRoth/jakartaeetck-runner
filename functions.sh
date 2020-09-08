@@ -49,7 +49,7 @@ init_urls () {
     if [ -z "$GLASSFISH_URL" ]; then
         GLASSFISH_URL=$BASE_URL/latest-glassfish.zip
     fi
-    if [ -z "$PAYARA_URL" ]; then
+    if [ -z "$PAYARA_VERSION" ]; then
         PAYARA_URL=$BASE_URL/payara-prerelease.zip
     fi
     if [ -z "$CDI_TCK_URL" ]; then
